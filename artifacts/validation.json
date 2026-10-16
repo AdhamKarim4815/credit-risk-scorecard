@@ -1,0 +1,1517 @@
+{
+ "metrics": {
+  "train": {
+   "n": 25671,
+   "bad_rate": 0.054146702504771924,
+   "mean_pd": 0.054146702504771924,
+   "auc": 0.8206735200777231,
+   "gini": 0.6413470401554462,
+   "ks": 0.4959559818065403,
+   "brier": 0.04382300135906516
+  },
+  "test": {
+   "n": 11002,
+   "bad_rate": 0.056444282857662245,
+   "mean_pd": 0.053720566749528485,
+   "auc": 0.8198301709691665,
+   "gini": 0.6396603419383331,
+   "ks": 0.49582857695086135,
+   "brier": 0.045193875650163674
+  },
+  "oot": {
+   "n": 23321,
+   "bad_rate": 0.12109257750525278,
+   "mean_pd": 0.08737047823516789,
+   "auc": 0.8277296608458282,
+   "gini": 0.6554593216916564,
+   "ks": 0.5008587071610424,
+   "brier": 0.08550137568142568
+  }
+ },
+ "auc_ci_oot": {
+  "low": 0.8193591223545296,
+  "high": 0.8352075516562449,
+  "n_boot": 400
+ },
+ "auc_ci_test": {
+  "low": 0.800291244160011,
+  "high": 0.8399232695091275,
+  "n_boot": 400
+ },
+ "calibration": {
+  "test": [
+   {
+    "band": 1,
+    "n": 1101,
+    "bads": 9,
+    "mean_pd": 0.0036491177024181856,
+    "obs_rate": 0.008174386920980926,
+    "ratio": 2.2400995494236726
+   },
+   {
+    "band": 2,
+    "n": 1100,
+    "bads": 13,
+    "mean_pd": 0.0068261744969083556,
+    "obs_rate": 0.011818181818181818,
+    "ratio": 1.7313037959305602
+   },
+   {
+    "band": 3,
+    "n": 1100,
+    "bads": 14,
+    "mean_pd": 0.01034096544457901,
+    "obs_rate": 0.012727272727272728,
+    "ratio": 1.230762523623428
+   },
+   {
+    "band": 4,
+    "n": 1100,
+    "bads": 18,
+    "mean_pd": 0.014620415689597094,
+    "obs_rate": 0.016363636363636365,
+    "ratio": 1.1192319501065644
+   },
+   {
+    "band": 5,
+    "n": 1100,
+    "bads": 17,
+    "mean_pd": 0.020445119836876954,
+    "obs_rate": 0.015454545454545455,
+    "ratio": 0.7559038820926851
+   },
+   {
+    "band": 6,
+    "n": 1101,
+    "bads": 33,
+    "mean_pd": 0.028435180593887447,
+    "obs_rate": 0.02997275204359673,
+    "ratio": 1.0540728568483158
+   },
+   {
+    "band": 7,
+    "n": 1100,
+    "bads": 44,
+    "mean_pd": 0.04068529573464952,
+    "obs_rate": 0.04,
+    "ratio": 0.983156181557115
+   },
+   {
+    "band": 8,
+    "n": 1100,
+    "bads": 65,
+    "mean_pd": 0.05994190745638517,
+    "obs_rate": 0.05909090909090909,
+    "ratio": 0.9858029481945452
+   },
+   {
+    "band": 9,
+    "n": 1100,
+    "bads": 110,
+    "mean_pd": 0.09951958827276083,
+    "obs_rate": 0.1,
+    "ratio": 1.0048273082272252
+   },
+   {
+    "band": 10,
+    "n": 1100,
+    "bads": 298,
+    "mean_pd": 0.2528104084810431,
+    "obs_rate": 0.27090909090909093,
+    "ratio": 1.0715899417938917
+   }
+  ],
+  "oot": [
+   {
+    "band": 1,
+    "n": 2333,
+    "bads": 19,
+    "mean_pd": 0.005443732797739558,
+    "obs_rate": 0.008144020574367767,
+    "ratio": 1.4960360614594217
+   },
+   {
+    "band": 2,
+    "n": 2332,
+    "bads": 41,
+    "mean_pd": 0.011104379812390913,
+    "obs_rate": 0.01758147512864494,
+    "ratio": 1.5832919465728748
+   },
+   {
+    "band": 3,
+    "n": 2332,
+    "bads": 66,
+    "mean_pd": 0.017414959972710392,
+    "obs_rate": 0.02830188679245283,
+    "ratio": 1.625147966851631
+   },
+   {
+    "band": 4,
+    "n": 2332,
+    "bads": 88,
+    "mean_pd": 0.025065843323132084,
+    "obs_rate": 0.03773584905660377,
+    "ratio": 1.5054689590985808
+   },
+   {
+    "band": 5,
+    "n": 2332,
+    "bads": 124,
+    "mean_pd": 0.035232974585306484,
+    "obs_rate": 0.05317324185248713,
+    "ratio": 1.509189686035264
+   },
+   {
+    "band": 6,
+    "n": 2332,
+    "bads": 160,
+    "mean_pd": 0.04971104286136867,
+    "obs_rate": 0.0686106346483705,
+    "ratio": 1.3801890022647068
+   },
+   {
+    "band": 7,
+    "n": 2332,
+    "bads": 244,
+    "mean_pd": 0.07124652820981915,
+    "obs_rate": 0.10463121783876501,
+    "ratio": 1.468579879859252
+   },
+   {
+    "band": 8,
+    "n": 2332,
+    "bads": 336,
+    "mean_pd": 0.10526757815732239,
+    "obs_rate": 0.14408233276157806,
+    "ratio": 1.368724685071096
+   },
+   {
+    "band": 9,
+    "n": 2332,
+    "bads": 564,
+    "mean_pd": 0.17101276619457487,
+    "obs_rate": 0.241852487135506,
+    "ratio": 1.4142364486422676
+   },
+   {
+    "band": 10,
+    "n": 2332,
+    "bads": 1182,
+    "mean_pd": 0.38224010797480906,
+    "obs_rate": 0.5068610634648371,
+    "ratio": 1.3260279413123255
+   }
+  ]
+ },
+ "hosmer_lemeshow": {
+  "test": {
+   "chi2": 14.48850959145401,
+   "p_value": 0.06988810618359112
+  },
+  "oot": {
+   "chi2": 395.74061384378933,
+   "p_value": 1.5261921144005932e-80
+  }
+ },
+ "recalibration": {
+  "logit_shift": 0.4488880777017567,
+  "oot_brier_before": 0.08550137568142568,
+  "oot_brier_after": 0.08315132192488463,
+  "oot_hl_after": 9.748966472478498
+ },
+ "lift": {
+  "test": [
+   {
+    "band": 1,
+    "n": 1100,
+    "bads": 298,
+    "bad_rate": 0.27090909090909093,
+    "lift": 4.799584248279901,
+    "cum_pct_pop": 0.09998182148700237,
+    "cum_pct_bads": 0.47987117552334946,
+    "cum_lift": 4.799584248279901
+   },
+   {
+    "band": 2,
+    "n": 1100,
+    "bads": 110,
+    "bad_rate": 0.1,
+    "lift": 1.771658615136876,
+    "cum_pct_pop": 0.19996364297400473,
+    "cum_pct_bads": 0.6570048309178744,
+    "cum_lift": 3.285621431708388
+   },
+   {
+    "band": 3,
+    "n": 1100,
+    "bads": 65,
+    "bad_rate": 0.05909090909090909,
+    "lift": 1.0468891816717902,
+    "cum_pct_pop": 0.2999454644610071,
+    "cum_pct_bads": 0.7616747181964574,
+    "cum_lift": 2.5393773483628554
+   },
+   {
+    "band": 4,
+    "n": 1100,
+    "bads": 44,
+    "bad_rate": 0.04,
+    "lift": 0.7086634460547504,
+    "cum_pct_pop": 0.39992728594800947,
+    "cum_pct_bads": 0.8325281803542673,
+    "cum_lift": 2.081698872785829
+   },
+   {
+    "band": 5,
+    "n": 1101,
+    "bads": 33,
+    "bad_rate": 0.02997275204359673,
+    "lift": 0.5310148437739954,
+    "cum_pct_pop": 0.5,
+    "cum_pct_bads": 0.8856682769726248,
+    "cum_lift": 1.7713365539452497
+   },
+   {
+    "band": 6,
+    "n": 1100,
+    "bads": 17,
+    "bad_rate": 0.015454545454545455,
+    "lift": 0.27380178597569904,
+    "cum_pct_pop": 0.5999818214870024,
+    "cum_pct_bads": 0.9130434782608695,
+    "cum_lift": 1.521785236755959
+   },
+   {
+    "band": 7,
+    "n": 1100,
+    "bads": 18,
+    "bad_rate": 0.016363636363636365,
+    "lift": 0.2899077733860343,
+    "cum_pct_pop": 0.6999636429740047,
+    "cum_pct_bads": 0.9420289855072463,
+    "cum_lift": 1.345825593890498
+   },
+   {
+    "band": 8,
+    "n": 1100,
+    "bads": 14,
+    "bad_rate": 0.012727272727272728,
+    "lift": 0.2254838237446933,
+    "cum_pct_pop": 0.7999454644610071,
+    "cum_pct_bads": 0.964573268921095,
+    "cum_lift": 1.2057987847596734
+   },
+   {
+    "band": 9,
+    "n": 1100,
+    "bads": 13,
+    "bad_rate": 0.011818181818181818,
+    "lift": 0.20937783633435805,
+    "cum_pct_pop": 0.8999272859480094,
+    "cum_pct_bads": 0.9855072463768116,
+    "cum_lift": 1.0950965280918776
+   },
+   {
+    "band": 10,
+    "n": 1101,
+    "bads": 9,
+    "bad_rate": 0.008174386920980926,
+    "lift": 0.14482223012018058,
+    "cum_pct_pop": 1.0,
+    "cum_pct_bads": 1.0,
+    "cum_lift": 1.0
+   }
+  ],
+  "oot": [
+   {
+    "band": 1,
+    "n": 2332,
+    "bads": 1182,
+    "bad_rate": 0.5068610634648371,
+    "lift": 4.185731891311425,
+    "cum_pct_pop": 0.09999571201921015,
+    "cum_pct_bads": 0.4185552407932011,
+    "cum_lift": 4.185731891311425
+   },
+   {
+    "band": 2,
+    "n": 2332,
+    "bads": 564,
+    "bad_rate": 0.241852487135506,
+    "lift": 1.997252780625756,
+    "cum_pct_pop": 0.1999914240384203,
+    "cum_pct_bads": 0.6182719546742209,
+    "cum_lift": 3.091492335968591
+   },
+   {
+    "band": 3,
+    "n": 2332,
+    "bads": 336,
+    "bad_rate": 0.14408233276157806,
+    "lift": 1.189852720372791,
+    "cum_pct_pop": 0.29998713605763044,
+    "cum_pct_bads": 0.7372521246458924,
+    "cum_lift": 2.4576124641033243
+   },
+   {
+    "band": 4,
+    "n": 2332,
+    "bads": 244,
+    "bad_rate": 0.10463121783876501,
+    "lift": 0.8640597136040506,
+    "cum_pct_pop": 0.3999828480768406,
+    "cum_pct_bads": 0.8236543909348442,
+    "cum_lift": 2.059224276478506
+   },
+   {
+    "band": 5,
+    "n": 2332,
+    "bads": 160,
+    "bad_rate": 0.0686106346483705,
+    "lift": 0.5665965335108528,
+    "cum_pct_pop": 0.4999785600960508,
+    "cum_pct_bads": 0.8803116147308782,
+    "cum_lift": 1.7606987278849753
+   },
+   {
+    "band": 6,
+    "n": 2332,
+    "bads": 124,
+    "bad_rate": 0.05317324185248713,
+    "lift": 0.4391123134709109,
+    "cum_pct_pop": 0.5999742721152609,
+    "cum_pct_bads": 0.9242209631728046,
+    "cum_lift": 1.5404343254826312
+   },
+   {
+    "band": 7,
+    "n": 2332,
+    "bads": 88,
+    "bad_rate": 0.03773584905660377,
+    "lift": 0.31162809343096903,
+    "cum_pct_pop": 0.6999699841344711,
+    "cum_pct_bads": 0.9553824362606232,
+    "cum_lift": 1.3648905780466793
+   },
+   {
+    "band": 8,
+    "n": 2332,
+    "bads": 66,
+    "bad_rate": 0.02830188679245283,
+    "lift": 0.2337210700732268,
+    "cum_pct_pop": 0.7999656961536812,
+    "cum_pct_bads": 0.9787535410764873,
+    "cum_lift": 1.2234943895499977
+   },
+   {
+    "band": 9,
+    "n": 2332,
+    "bads": 41,
+    "bad_rate": 0.01758147512864494,
+    "lift": 0.14519036171215605,
+    "cum_pct_pop": 0.8999614081728914,
+    "cum_pct_bads": 0.9932719546742209,
+    "cum_lift": 1.1036828309013487
+   },
+   {
+    "band": 10,
+    "n": 2333,
+    "bads": 19,
+    "bad_rate": 0.008144020574367767,
+    "lift": 0.06725449851799954,
+    "cum_pct_pop": 1.0,
+    "cum_pct_bads": 1.0,
+    "cum_lift": 1.0
+   }
+  ]
+ },
+ "psi": {
+  "score_train_vs_oot": 0.16265308996167765,
+  "score_label": "moderate shift",
+  "score_train_vs_test": 0.0012942697687884314,
+  "characteristics": [
+   {
+    "characteristic": "loan_to_income",
+    "psi": 0.010256359165522142,
+    "reading": "stable"
+   },
+   {
+    "characteristic": "income",
+    "psi": 0.03702298080603009,
+    "reading": "stable"
+   },
+   {
+    "characteristic": "dti",
+    "psi": 0.1598848704620728,
+    "reading": "moderate shift"
+   },
+   {
+    "characteristic": "revol_util",
+    "psi": 0.26695072707279544,
+    "reading": "significant shift"
+   },
+   {
+    "characteristic": "credit_file_age_months",
+    "psi": 0.004083161565658522,
+    "reading": "stable"
+   },
+   {
+    "characteristic": "delinq_24m",
+    "psi": 0.03233980278305434,
+    "reading": "stable"
+   },
+   {
+    "characteristic": "emp_length",
+    "psi": 0.0014505139236379657,
+    "reading": "stable"
+   },
+   {
+    "characteristic": "term",
+    "psi": 3.838653099385947e-06,
+    "reading": "stable"
+   },
+   {
+    "characteristic": "home_ownership",
+    "psi": 0.00162461371834997,
+    "reading": "stable"
+   },
+   {
+    "characteristic": "loan_amount",
+    "psi": 0.002754023106574881,
+    "reading": "stable"
+   },
+   {
+    "characteristic": "purpose",
+    "psi": 0.005772779059279345,
+    "reading": "stable"
+   }
+  ]
+ },
+ "challenger": {
+  "model": "HistGradientBoostingClassifier (raw features, early stopping)",
+  "n_iter": 163,
+  "metrics": {
+   "train": {
+    "auc": 0.8674778129804546,
+    "gini": 0.7349556259609091,
+    "ks": 0.5646620696112276
+   },
+   "test": {
+    "auc": 0.8261538134592167,
+    "gini": 0.6523076269184334,
+    "ks": 0.5080959718152248
+   },
+   "oot": {
+    "auc": 0.8312256640611125,
+    "gini": 0.6624513281222251,
+    "ks": 0.5023317514440377
+   }
+  },
+  "auc_diff_oot": {
+   "diff": 0.0034960032152843157,
+   "low": 0.0004131267622459661,
+   "high": 0.006530798071045465
+  }
+ },
+ "oracle": {
+  "oot_auc_true_pd": 0.847839164191927,
+  "oot_ks_true_pd": 0.5349267757141548,
+  "oot_mean_true_pd": 0.12070936003155018
+ },
+ "business": {
+  "economics": {
+   "net_margin_pa": 0.055,
+   "avg_balance_factor": 0.55,
+   "lgd": 0.7,
+   "ead_factor": 0.85
+  },
+  "chosen_cutoff": 545.0,
+  "cutoff_table_test": [
+   {
+    "cutoff": 415.0,
+    "approval_rate": 1.0,
+    "bad_rate_approved": 0.056444282857662245,
+    "profit": 7614871.5575,
+    "profit_per_applicant": 692.1352079167424
+   },
+   {
+    "cutoff": 420.0,
+    "approval_rate": 0.9999091074350118,
+    "bad_rate_approved": 0.05635851286246705,
+    "profit": 7634173.3575,
+    "profit_per_applicant": 693.8895980276313
+   },
+   {
+    "cutoff": 425.0,
+    "approval_rate": 0.9999091074350118,
+    "bad_rate_approved": 0.05635851286246705,
+    "profit": 7634173.3575,
+    "profit_per_applicant": 693.8895980276313
+   },
+   {
+    "cutoff": 430.0,
+    "approval_rate": 0.9999091074350118,
+    "bad_rate_approved": 0.05635851286246705,
+    "profit": 7634173.3575,
+    "profit_per_applicant": 693.8895980276313
+   },
+   {
+    "cutoff": 435.0,
+    "approval_rate": 0.9999091074350118,
+    "bad_rate_approved": 0.05635851286246705,
+    "profit": 7634173.3575,
+    "profit_per_applicant": 693.8895980276313
+   },
+   {
+    "cutoff": 440.0,
+    "approval_rate": 0.9999091074350118,
+    "bad_rate_approved": 0.05635851286246705,
+    "profit": 7634173.3575,
+    "profit_per_applicant": 693.8895980276313
+   },
+   {
+    "cutoff": 445.0,
+    "approval_rate": 0.9999091074350118,
+    "bad_rate_approved": 0.05635851286246705,
+    "profit": 7634173.3575,
+    "profit_per_applicant": 693.8895980276313
+   },
+   {
+    "cutoff": 450.0,
+    "approval_rate": 0.9999091074350118,
+    "bad_rate_approved": 0.05635851286246705,
+    "profit": 7634173.3575,
+    "profit_per_applicant": 693.8895980276313
+   },
+   {
+    "cutoff": 455.0,
+    "approval_rate": 0.9998182148700236,
+    "bad_rate_approved": 0.05627272727272727,
+    "profit": 7644008.7075,
+    "profit_per_applicant": 694.7835582166879
+   },
+   {
+    "cutoff": 460.0,
+    "approval_rate": 0.9998182148700236,
+    "bad_rate_approved": 0.05627272727272727,
+    "profit": 7644008.7075,
+    "profit_per_applicant": 694.7835582166879
+   },
+   {
+    "cutoff": 465.0,
+    "approval_rate": 0.9998182148700236,
+    "bad_rate_approved": 0.05627272727272727,
+    "profit": 7644008.7075,
+    "profit_per_applicant": 694.7835582166879
+   },
+   {
+    "cutoff": 470.0,
+    "approval_rate": 0.9996364297400473,
+    "bad_rate_approved": 0.05610110929259866,
+    "profit": 7657259.357499999,
+    "profit_per_applicant": 695.9879437829485
+   },
+   {
+    "cutoff": 475.0,
+    "approval_rate": 0.9992728594800945,
+    "bad_rate_approved": 0.055757686010551206,
+    "profit": 7684438.957499999,
+    "profit_per_applicant": 698.4583673423012
+   },
+   {
+    "cutoff": 480.0,
+    "approval_rate": 0.9988183966551536,
+    "bad_rate_approved": 0.05551005551005551,
+    "profit": 7716929.394999999,
+    "profit_per_applicant": 701.4115065442645
+   },
+   {
+    "cutoff": 485.0,
+    "approval_rate": 0.9983639338302127,
+    "bad_rate_approved": 0.055080116533139115,
+    "profit": 7785907.744999998,
+    "profit_per_applicant": 707.6811257044172
+   },
+   {
+    "cutoff": 490.0,
+    "approval_rate": 0.9973641156153427,
+    "bad_rate_approved": 0.05440626993529572,
+    "profit": 7836866.907499999,
+    "profit_per_applicant": 712.312934693692
+   },
+   {
+    "cutoff": 495.0,
+    "approval_rate": 0.9962734048354844,
+    "bad_rate_approved": 0.05373597299516467,
+    "profit": 7901266.807499999,
+    "profit_per_applicant": 718.1664067896745
+   },
+   {
+    "cutoff": 500.0,
+    "approval_rate": 0.9948191237956735,
+    "bad_rate_approved": 0.053449063499314754,
+    "profit": 7911183.964999999,
+    "profit_per_applicant": 719.0678026722413
+   },
+   {
+    "cutoff": 505.0,
+    "approval_rate": 0.9928194873659335,
+    "bad_rate_approved": 0.05245811590222466,
+    "profit": 8004526.957499997,
+    "profit_per_applicant": 727.551986684239
+   },
+   {
+    "cutoff": 510.0,
+    "approval_rate": 0.9899109252863115,
+    "bad_rate_approved": 0.05132678358277477,
+    "profit": 8094403.8374999985,
+    "profit_per_applicant": 735.7211268405744
+   },
+   {
+    "cutoff": 515.0,
+    "approval_rate": 0.9862752226867842,
+    "bad_rate_approved": 0.04958068380794397,
+    "profit": 8195232.814999997,
+    "profit_per_applicant": 744.885731230685
+   },
+   {
+    "cutoff": 520.0,
+    "approval_rate": 0.982185057262316,
+    "bad_rate_approved": 0.048028872848417545,
+    "profit": 8346402.704999998,
+    "profit_per_applicant": 758.6259502817668
+   },
+   {
+    "cutoff": 525.0,
+    "approval_rate": 0.9770041810579895,
+    "bad_rate_approved": 0.04605079542283003,
+    "profit": 8452616.6175,
+    "profit_per_applicant": 768.2800052263225
+   },
+   {
+    "cutoff": 530.0,
+    "approval_rate": 0.9696418832939465,
+    "bad_rate_approved": 0.04349456317960255,
+    "profit": 8606377.4725,
+    "profit_per_applicant": 782.2557237320488
+   },
+   {
+    "cutoff": 535.0,
+    "approval_rate": 0.9613706598800218,
+    "bad_rate_approved": 0.04159969745674577,
+    "profit": 8660859.387500007,
+    "profit_per_applicant": 787.2077247318675
+   },
+   {
+    "cutoff": 540.0,
+    "approval_rate": 0.9516451554262861,
+    "bad_rate_approved": 0.03954154727793696,
+    "profit": 8678661.502500005,
+    "profit_per_applicant": 788.825804626432
+   },
+   {
+    "cutoff": 545.0,
+    "approval_rate": 0.9390110888929286,
+    "bad_rate_approved": 0.03668570322330849,
+    "profit": 8800323.677500004,
+    "profit_per_applicant": 799.8839917742232
+   },
+   {
+    "cutoff": 550.0,
+    "approval_rate": 0.9231957825849846,
+    "bad_rate_approved": 0.03475435660135867,
+    "profit": 8781459.872500008,
+    "profit_per_applicant": 798.1694121523367
+   },
+   {
+    "cutoff": 555.0,
+    "approval_rate": 0.902199600072714,
+    "bad_rate_approved": 0.03304452951843643,
+    "profit": 8688462.715000004,
+    "profit_per_applicant": 789.7166619705512
+   },
+   {
+    "cutoff": 560.0,
+    "approval_rate": 0.8810216324304672,
+    "bad_rate_approved": 0.030331166821417517,
+    "profit": 8655594.132500008,
+    "profit_per_applicant": 786.7291521996008
+   },
+   {
+    "cutoff": 565.0,
+    "approval_rate": 0.8561170696237048,
+    "bad_rate_approved": 0.027285274445270197,
+    "profit": 8591094.230000006,
+    "profit_per_applicant": 780.8665906198878
+   },
+   {
+    "cutoff": 570.0,
+    "approval_rate": 0.8282130521723323,
+    "bad_rate_approved": 0.0252414398595259,
+    "profit": 8374546.532500009,
+    "profit_per_applicant": 761.1840149518277
+   },
+   {
+    "cutoff": 575.0,
+    "approval_rate": 0.7994910016360661,
+    "bad_rate_approved": 0.024215552523874487,
+    "profit": 8092346.097500014,
+    "profit_per_applicant": 735.5340935738969
+   },
+   {
+    "cutoff": 580.0,
+    "approval_rate": 0.7631339756407926,
+    "bad_rate_approved": 0.022391615054787994,
+    "profit": 7709255.780000022,
+    "profit_per_applicant": 700.7140319941849
+   },
+   {
+    "cutoff": 585.0,
+    "approval_rate": 0.721323395746228,
+    "bad_rate_approved": 0.020035282258064516,
+    "profit": 7386992.855000022,
+    "profit_per_applicant": 671.4227281403402
+   },
+   {
+    "cutoff": 590.0,
+    "approval_rate": 0.6781494273768406,
+    "bad_rate_approved": 0.018228119555019434,
+    "profit": 6952865.347500022,
+    "profit_per_applicant": 631.963765451738
+   },
+   {
+    "cutoff": 595.0,
+    "approval_rate": 0.6357934920923468,
+    "bad_rate_approved": 0.017155110793423873,
+    "profit": 6473341.422500013,
+    "profit_per_applicant": 588.3786059352857
+   },
+   {
+    "cutoff": 600.0,
+    "approval_rate": 0.5872568623886566,
+    "bad_rate_approved": 0.015322705463550534,
+    "profit": 5986204.597500011,
+    "profit_per_applicant": 544.1014904108354
+   },
+   {
+    "cutoff": 605.0,
+    "approval_rate": 0.5389929103799309,
+    "bad_rate_approved": 0.013996627318718381,
+    "profit": 5483295.785000007,
+    "profit_per_applicant": 498.3908184875483
+   },
+   {
+    "cutoff": 610.0,
+    "approval_rate": 0.4877295037265952,
+    "bad_rate_approved": 0.012299664554603056,
+    "profit": 4969699.920000003,
+    "profit_per_applicant": 451.7087729503729
+   },
+   {
+    "cutoff": 615.0,
+    "approval_rate": 0.4375568078531176,
+    "bad_rate_approved": 0.012255920232654757,
+    "profit": 4418404.355000004,
+    "profit_per_applicant": 401.60010498091293
+   },
+   {
+    "cutoff": 620.0,
+    "approval_rate": 0.38411197964006544,
+    "bad_rate_approved": 0.012304779933743492,
+    "profit": 3804005.260000005,
+    "profit_per_applicant": 345.7557953099441
+   },
+   {
+    "cutoff": 625.0,
+    "approval_rate": 0.3355753499363752,
+    "bad_rate_approved": 0.011375947995666305,
+    "profit": 3238420.849999996,
+    "profit_per_applicant": 294.3483775677146
+   },
+   {
+    "cutoff": 630.0,
+    "approval_rate": 0.28303944737320486,
+    "bad_rate_approved": 0.01123956326268465,
+    "profit": 2673907.6824999964,
+    "profit_per_applicant": 243.0383278040353
+   },
+   {
+    "cutoff": 635.0,
+    "approval_rate": 0.23886566078894747,
+    "bad_rate_approved": 0.00989345509893455,
+    "profit": 2228738.0599999963,
+    "profit_per_applicant": 202.5757189601887
+   },
+   {
+    "cutoff": 640.0,
+    "approval_rate": 0.19469187420469006,
+    "bad_rate_approved": 0.01027077497665733,
+    "profit": 1760401.4999999953,
+    "profit_per_applicant": 160.0074077440461
+   },
+   {
+    "cutoff": 645.0,
+    "approval_rate": 0.15515360843483003,
+    "bad_rate_approved": 0.01054481546572935,
+    "profit": 1379808.8774999985,
+    "profit_per_applicant": 125.41436806944179
+   },
+   {
+    "cutoff": 650.0,
+    "approval_rate": 0.12043264860934376,
+    "bad_rate_approved": 0.00830188679245283,
+    "profit": 1039278.5624999994,
+    "profit_per_applicant": 94.46269428285761
+   },
+   {
+    "cutoff": 655.0,
+    "approval_rate": 0.08880203599345574,
+    "bad_rate_approved": 0.009211873080859774,
+    "profit": 758971.2125,
+    "profit_per_applicant": 68.98484025631704
+   },
+   {
+    "cutoff": 660.0,
+    "approval_rate": 0.06253408471187057,
+    "bad_rate_approved": 0.00872093023255814,
+    "profit": 505206.0900000003,
+    "profit_per_applicant": 45.91947736775135
+   },
+   {
+    "cutoff": 665.0,
+    "approval_rate": 0.04262861297945828,
+    "bad_rate_approved": 0.008528784648187633,
+    "profit": 348507.445,
+    "profit_per_applicant": 31.67673559352845
+   },
+   {
+    "cutoff": 670.0,
+    "approval_rate": 0.026631521541537903,
+    "bad_rate_approved": 0.013651877133105802,
+    "profit": 200817.5675,
+    "profit_per_applicant": 18.25282380476277
+   },
+   {
+    "cutoff": 675.0,
+    "approval_rate": 0.015088165788038538,
+    "bad_rate_approved": 0.012048192771084338,
+    "profit": 114189.52500000005,
+    "profit_per_applicant": 10.378978822032362
+   },
+   {
+    "cutoff": 680.0,
+    "approval_rate": 0.008816578803853845,
+    "bad_rate_approved": 0.020618556701030927,
+    "profit": 62787.2125,
+    "profit_per_applicant": 5.706890792583167
+   },
+   {
+    "cutoff": 685.0,
+    "approval_rate": 0.00481730594437375,
+    "bad_rate_approved": 0.018867924528301886,
+    "profit": 31946.289999999997,
+    "profit_per_applicant": 2.9036802399563713
+   },
+   {
+    "cutoff": 690.0,
+    "approval_rate": 0.0021814215597164154,
+    "bad_rate_approved": 0.0,
+    "profit": 20366.114999999998,
+    "profit_per_applicant": 1.8511284311943281
+   },
+   {
+    "cutoff": 695.0,
+    "approval_rate": 0.0012724959098345755,
+    "bad_rate_approved": 0.0,
+    "profit": 11600.5725,
+    "profit_per_applicant": 1.0544057898563897
+   },
+   {
+    "cutoff": 700.0,
+    "approval_rate": 0.00018178512997636792,
+    "bad_rate_approved": 0.0,
+    "profit": 1483.7625000000003,
+    "profit_per_applicant": 0.13486297945828032
+   },
+   {
+    "cutoff": 705.0,
+    "approval_rate": 0.0,
+    "bad_rate_approved": null,
+    "profit": 0.0,
+    "profit_per_applicant": 0.0
+   }
+  ],
+  "cutoff_table_oot": [
+   {
+    "cutoff": 440.0,
+    "approval_rate": 1.0,
+    "bad_rate_approved": 0.12109257750525278,
+    "profit": 2842989.9499999885,
+    "profit_per_applicant": 121.90686291325366
+   },
+   {
+    "cutoff": 445.0,
+    "approval_rate": 0.9997856009605077,
+    "bad_rate_approved": 0.12090410018871162,
+    "profit": 2888864.449999988,
+    "profit_per_applicant": 123.87395266069157
+   },
+   {
+    "cutoff": 450.0,
+    "approval_rate": 0.9996569615368123,
+    "bad_rate_approved": 0.12083386951486295,
+    "profit": 2898120.224999988,
+    "profit_per_applicant": 124.27083851464293
+   },
+   {
+    "cutoff": 455.0,
+    "approval_rate": 0.9992710432657261,
+    "bad_rate_approved": 0.12049433573635428,
+    "profit": 2981997.374999988,
+    "profit_per_applicant": 127.8674745937133
+   },
+   {
+    "cutoff": 460.0,
+    "approval_rate": 0.9990566442262339,
+    "bad_rate_approved": 0.1203055925147002,
+    "profit": 3024652.9249999877,
+    "profit_per_applicant": 129.69653638351647
+   },
+   {
+    "cutoff": 465.0,
+    "approval_rate": 0.9985849663393508,
+    "bad_rate_approved": 0.11993301271040879,
+    "profit": 3136670.9249999877,
+    "profit_per_applicant": 134.49984670468623
+   },
+   {
+    "cutoff": 470.0,
+    "approval_rate": 0.9976844903734832,
+    "bad_rate_approved": 0.11926763226887867,
+    "profit": 3305553.7749999887,
+    "profit_per_applicant": 141.74151087003082
+   },
+   {
+    "cutoff": 475.0,
+    "approval_rate": 0.9966124951760216,
+    "bad_rate_approved": 0.11849238447637897,
+    "profit": 3507160.417499988,
+    "profit_per_applicant": 150.3863649714844
+   },
+   {
+    "cutoff": 480.0,
+    "approval_rate": 0.9951117018995755,
+    "bad_rate_approved": 0.11729219632007584,
+    "profit": 3852293.9699999876,
+    "profit_per_applicant": 165.18562540199767
+   },
+   {
+    "cutoff": 485.0,
+    "approval_rate": 0.9930105913125509,
+    "bad_rate_approved": 0.11598583642801624,
+    "profit": 4114184.1574999886,
+    "profit_per_applicant": 176.41542633248955
+   },
+   {
+    "cutoff": 490.0,
+    "approval_rate": 0.9903091634149479,
+    "bad_rate_approved": 0.11431045680883307,
+    "profit": 4499199.974999989,
+    "profit_per_applicant": 192.92483062475836
+   },
+   {
+    "cutoff": 495.0,
+    "approval_rate": 0.9873933364778525,
+    "bad_rate_approved": 0.11252008511747079,
+    "profit": 4908075.344999989,
+    "profit_per_applicant": 210.45732794477033
+   },
+   {
+    "cutoff": 500.0,
+    "approval_rate": 0.9833626345353973,
+    "bad_rate_approved": 0.11010334452535647,
+    "profit": 5337075.67499999,
+    "profit_per_applicant": 228.85277968354657
+   },
+   {
+    "cutoff": 505.0,
+    "approval_rate": 0.9784743364349727,
+    "bad_rate_approved": 0.1075419606468294,
+    "profit": 5859356.44249999,
+    "profit_per_applicant": 251.24807866300713
+   },
+   {
+    "cutoff": 510.0,
+    "approval_rate": 0.9718708460186098,
+    "bad_rate_approved": 0.10386057798367528,
+    "profit": 6622788.594999989,
+    "profit_per_applicant": 283.98390270571537
+   },
+   {
+    "cutoff": 515.0,
+    "approval_rate": 0.9625230478967455,
+    "bad_rate_approved": 0.09970151913396,
+    "profit": 7467404.252499993,
+    "profit_per_applicant": 320.2008598473476
+   },
+   {
+    "cutoff": 520.0,
+    "approval_rate": 0.9514600574589426,
+    "bad_rate_approved": 0.09545270178917481,
+    "profit": 8201430.114999996,
+    "profit_per_applicant": 351.6757478238496
+   },
+   {
+    "cutoff": 525.0,
+    "approval_rate": 0.9400969083658505,
+    "bad_rate_approved": 0.09067688378033206,
+    "profit": 8959459.629999995,
+    "profit_per_applicant": 384.1799078084128
+   },
+   {
+    "cutoff": 530.0,
+    "approval_rate": 0.9265040092620385,
+    "bad_rate_approved": 0.08631462026195215,
+    "profit": 9615254.177500004,
+    "profit_per_applicant": 412.3002520260711
+   },
+   {
+    "cutoff": 535.0,
+    "approval_rate": 0.9085373697525835,
+    "bad_rate_approved": 0.08047007740230319,
+    "profit": 10325025.507500013,
+    "profit_per_applicant": 442.7351103083064
+   },
+   {
+    "cutoff": 540.0,
+    "approval_rate": 0.8880408215771194,
+    "bad_rate_approved": 0.07537421535490102,
+    "profit": 10942143.090000022,
+    "profit_per_applicant": 469.1969936966692
+   },
+   {
+    "cutoff": 545.0,
+    "approval_rate": 0.8657862012778182,
+    "bad_rate_approved": 0.07037789113961666,
+    "profit": 11238426.785000023,
+    "profit_per_applicant": 481.9015816217153
+   },
+   {
+    "cutoff": 550.0,
+    "approval_rate": 0.8403155953861327,
+    "bad_rate_approved": 0.0656733173444915,
+    "profit": 11427481.38250002,
+    "profit_per_applicant": 490.008206444836
+   },
+   {
+    "cutoff": 555.0,
+    "approval_rate": 0.8109429269756872,
+    "bad_rate_approved": 0.05964467005076142,
+    "profit": 11858546.452499999,
+    "profit_per_applicant": 508.49219383817154
+   },
+   {
+    "cutoff": 560.0,
+    "approval_rate": 0.7790403498992324,
+    "bad_rate_approved": 0.05465653896961691,
+    "profit": 11981644.149999993,
+    "profit_per_applicant": 513.7705994597142
+   },
+   {
+    "cutoff": 565.0,
+    "approval_rate": 0.7423781141460486,
+    "bad_rate_approved": 0.05019349621671576,
+    "profit": 11901538.412499998,
+    "profit_per_applicant": 510.3356808241498
+   },
+   {
+    "cutoff": 570.0,
+    "approval_rate": 0.7015994168346126,
+    "bad_rate_approved": 0.04559344823371226,
+    "profit": 11621332.627500001,
+    "profit_per_applicant": 498.3205105913126
+   },
+   {
+    "cutoff": 575.0,
+    "approval_rate": 0.660220402212598,
+    "bad_rate_approved": 0.04111190491654218,
+    "profit": 11272914.485000016,
+    "profit_per_applicant": 483.38040757257477
+   },
+   {
+    "cutoff": 580.0,
+    "approval_rate": 0.616268599116676,
+    "bad_rate_approved": 0.036738101864736986,
+    "profit": 10845659.500000037,
+    "profit_per_applicant": 465.05979589211603
+   },
+   {
+    "cutoff": 585.0,
+    "approval_rate": 0.5696582479310492,
+    "bad_rate_approved": 0.03342115167482123,
+    "profit": 10180626.740000036,
+    "profit_per_applicant": 436.54331889713285
+   },
+   {
+    "cutoff": 590.0,
+    "approval_rate": 0.5245915698297672,
+    "bad_rate_approved": 0.029916625796959292,
+    "profit": 9552807.862500029,
+    "profit_per_applicant": 409.6225660349054
+   },
+   {
+    "cutoff": 595.0,
+    "approval_rate": 0.47536555036233435,
+    "bad_rate_approved": 0.027602381381923145,
+    "profit": 8791897.062500024,
+    "profit_per_applicant": 376.9948571030412
+   },
+   {
+    "cutoff": 600.0,
+    "approval_rate": 0.4250675356974401,
+    "bad_rate_approved": 0.024412387773630587,
+    "profit": 7992349.735000007,
+    "profit_per_applicant": 342.7104212941129
+   },
+   {
+    "cutoff": 605.0,
+    "approval_rate": 0.37588439603790574,
+    "bad_rate_approved": 0.021788729180926305,
+    "profit": 7157178.485000013,
+    "profit_per_applicant": 306.89843853179593
+   },
+   {
+    "cutoff": 610.0,
+    "approval_rate": 0.326658376570473,
+    "bad_rate_approved": 0.01942767130480441,
+    "profit": 6197659.620000003,
+    "profit_per_applicant": 265.75445392564654
+   },
+   {
+    "cutoff": 615.0,
+    "approval_rate": 0.2797907465374555,
+    "bad_rate_approved": 0.017624521072796936,
+    "profit": 5302179.209999996,
+    "profit_per_applicant": 227.3564259680115
+   },
+   {
+    "cutoff": 620.0,
+    "approval_rate": 0.2360533424810257,
+    "bad_rate_approved": 0.014713896457765668,
+    "profit": 4502602.234999993,
+    "profit_per_applicant": 193.07071887997913
+   },
+   {
+    "cutoff": 625.0,
+    "approval_rate": 0.19506024613009734,
+    "bad_rate_approved": 0.012750054957133435,
+    "profit": 3701736.309999991,
+    "profit_per_applicant": 158.7297418635561
+   },
+   {
+    "cutoff": 630.0,
+    "approval_rate": 0.16019896230864886,
+    "bad_rate_approved": 0.011509635974304069,
+    "profit": 2992167.9199999967,
+    "profit_per_applicant": 128.30358560953633
+   },
+   {
+    "cutoff": 635.0,
+    "approval_rate": 0.12842502465588954,
+    "bad_rate_approved": 0.009682804674457429,
+    "profit": 2366695.4450000017,
+    "profit_per_applicant": 101.48344603576183
+   },
+   {
+    "cutoff": 640.0,
+    "approval_rate": 0.1003816302902963,
+    "bad_rate_approved": 0.008116189662537377,
+    "profit": 1885711.995,
+    "profit_per_applicant": 80.85896809742293
+   },
+   {
+    "cutoff": 645.0,
+    "approval_rate": 0.07465374555121992,
+    "bad_rate_approved": 0.007466973004020678,
+    "profit": 1389537.6149999993,
+    "profit_per_applicant": 59.583105998885095
+   },
+   {
+    "cutoff": 650.0,
+    "approval_rate": 0.054242956991552675,
+    "bad_rate_approved": 0.007905138339920948,
+    "profit": 992578.4525000005,
+    "profit_per_applicant": 42.561573367351336
+   },
+   {
+    "cutoff": 655.0,
+    "approval_rate": 0.03914926461129454,
+    "bad_rate_approved": 0.008762322015334063,
+    "profit": 685225.4450000008,
+    "profit_per_applicant": 29.382335448737223
+   },
+   {
+    "cutoff": 660.0,
+    "approval_rate": 0.026928519360233265,
+    "bad_rate_approved": 0.009554140127388535,
+    "profit": 450521.29750000057,
+    "profit_per_applicant": 19.31826669096525
+   },
+   {
+    "cutoff": 665.0,
+    "approval_rate": 0.017666480854165775,
+    "bad_rate_approved": 0.009708737864077669,
+    "profit": 278423.75750000024,
+    "profit_per_applicant": 11.938757235967593
+   },
+   {
+    "cutoff": 670.0,
+    "approval_rate": 0.00981947600874748,
+    "bad_rate_approved": 0.013100436681222707,
+    "profit": 139159.84500000006,
+    "profit_per_applicant": 5.967147420779558
+   },
+   {
+    "cutoff": 675.0,
+    "approval_rate": 0.00561725483469834,
+    "bad_rate_approved": 0.015267175572519083,
+    "profit": 78698.92250000004,
+    "profit_per_applicant": 3.374594678615842
+   },
+   {
+    "cutoff": 680.0,
+    "approval_rate": 0.0029587067449937826,
+    "bad_rate_approved": 0.014492753623188406,
+    "profit": 40224.360000000015,
+    "profit_per_applicant": 1.724812829638524
+   },
+   {
+    "cutoff": 685.0,
+    "approval_rate": 0.0018009519317353458,
+    "bad_rate_approved": 0.023809523809523808,
+    "profit": 22153.3125,
+    "profit_per_applicant": 0.9499297843145663
+   },
+   {
+    "cutoff": 690.0,
+    "approval_rate": 0.0009433557737661335,
+    "bad_rate_approved": 0.0,
+    "profit": 14760.487500000001,
+    "profit_per_applicant": 0.6329268684876292
+   },
+   {
+    "cutoff": 695.0,
+    "approval_rate": 0.0003001586552892243,
+    "bad_rate_approved": 0.0,
+    "profit": 4522.0725,
+    "profit_per_applicant": 0.19390560010291155
+   },
+   {
+    "cutoff": 700.0,
+    "approval_rate": 0.00012863942369538184,
+    "bad_rate_approved": 0.0,
+    "profit": 1875.8025000000002,
+    "profit_per_applicant": 0.08043405085545217
+   },
+   {
+    "cutoff": 705.0,
+    "approval_rate": 4.2879807898460615e-05,
+    "bad_rate_approved": 0.0,
+    "profit": 321.25500000000005,
+    "profit_per_applicant": 0.013775352686419967
+   },
+   {
+    "cutoff": 710.0,
+    "approval_rate": 0.0,
+    "bad_rate_approved": null,
+    "profit": 0.0,
+    "profit_per_applicant": 0.0
+   }
+  ],
+  "oot_at_cutoff": {
+   "cutoff": 545.0,
+   "approval_rate": 0.8657862012778182,
+   "bad_rate_approved": 0.07037789113961666,
+   "profit": 11238426.785000002,
+   "profit_all_approved": 2842989.950000003,
+   "profit_per_applicant": 481.9015816217144
+  },
+  "test_at_cutoff": {
+   "cutoff": 545.0,
+   "approval_rate": 0.9390110888929286,
+   "bad_rate_approved": 0.03668570322330849,
+   "profit": 8800323.6775,
+   "profit_all_approved": 7614871.557500001,
+   "profit_per_applicant": 799.8839917742229
+  },
+  "el_by_band": [
+   {
+    "band": "min to 556",
+    "n": 4527,
+    "avg_pd": 0.2810213129557039,
+    "obs_bad_rate": 0.3795007731389441,
+    "ead": 47596073.0,
+    "expected_loss": 9861397.986555364,
+    "el_rate": 0.20718931972718346,
+    "observed_loss": 13040507.899999999
+   },
+   {
+    "band": "556 to 574",
+    "n": 3275,
+    "avg_pd": 0.10015460336025976,
+    "obs_bad_rate": 0.13984732824427482,
+    "ead": 30235698.5,
+    "expected_loss": 2128972.1787298303,
+    "el_rate": 0.0704125349950103,
+    "observed_loss": 2933159.5999999996
+   },
+   {
+    "band": "574 to 588",
+    "n": 2833,
+    "avg_pd": 0.060579767224076764,
+    "obs_bad_rate": 0.08683374514648783,
+    "ead": 25784503.5,
+    "expected_loss": 1095525.074443608,
+    "el_rate": 0.04248773199932308,
+    "observed_loss": 1569705.2000000002
+   },
+   {
+    "band": "588 to 599",
+    "n": 2462,
+    "avg_pd": 0.04052133231758729,
+    "obs_bad_rate": 0.056051990251827784,
+    "ead": 21000584.5,
+    "expected_loss": 596812.4622975594,
+    "el_rate": 0.02841885007046158,
+    "observed_loss": 860251.0
+   },
+   {
+    "band": "599 to 608",
+    "n": 2211,
+    "avg_pd": 0.028843714069985354,
+    "obs_bad_rate": 0.045228403437358664,
+    "ead": 18600864.5,
+    "expected_loss": 375558.42342255684,
+    "el_rate": 0.020190374669013734,
+    "observed_loss": 613260.5499999999
+   },
+   {
+    "band": "608 to 618",
+    "n": 2118,
+    "avg_pd": 0.02086770739149708,
+    "obs_bad_rate": 0.032577903682719546,
+    "ead": 17595518.5,
+    "expected_loss": 257064.27186050324,
+    "el_rate": 0.014609644601294542,
+    "observed_loss": 393259.30000000005
+   },
+   {
+    "band": "618 to 628",
+    "n": 1871,
+    "avg_pd": 0.014918550219758847,
+    "obs_bad_rate": 0.02512025654730091,
+    "ead": 15067380.5,
+    "expected_loss": 157299.2288210143,
+    "el_rate": 0.010439719685914502,
+    "observed_loss": 224582.74999999997
+   },
+   {
+    "band": "628 to 639",
+    "n": 1561,
+    "avg_pd": 0.010451069680910176,
+    "obs_bad_rate": 0.017937219730941704,
+    "ead": 12038958.0,
+    "expected_loss": 88193.7730839166,
+    "el_rate": 0.007325698211084099,
+    "observed_loss": 174108.89999999997
+   },
+   {
+    "band": "639 to 653",
+    "n": 1403,
+    "avg_pd": 0.0069845735586766666,
+    "obs_bad_rate": 0.007840342124019958,
+    "ead": 10795102.0,
+    "expected_loss": 52769.88342415036,
+    "el_rate": 0.004888317259452515,
+    "observed_loss": 70436.1
+   },
+   {
+    "band": "653 to max",
+    "n": 1060,
+    "avg_pd": 0.00376770986367702,
+    "obs_bad_rate": 0.008490566037735849,
+    "ead": 7727154.5,
+    "expected_loss": 20604.19493623075,
+    "el_rate": 0.002666466023971793,
+    "observed_loss": 51354.45
+   },
+   {
+    "band": "Total",
+    "n": 23321,
+    "avg_pd": 0.08737047823516789,
+    "obs_bad_rate": 0.12109257750525278,
+    "ead": 206441837.5,
+    "expected_loss": 14634197.477574734,
+    "el_rate": 0.07088775053930013,
+    "observed_loss": 19930625.75
+   }
+  ],
+  "ifrs9": {
+   "table": [
+    {
+     "stage": 1,
+     "n": 18155,
+     "share": 0.7784829123965524,
+     "ead": 157473737.0,
+     "ecl": 8181669.117742119,
+     "coverage": 0.05195576909273525
+    },
+    {
+     "stage": 2,
+     "n": 2342,
+     "share": 0.10042451009819477,
+     "ead": 20495778.0,
+     "ecl": 3993618.1587242046,
+     "coverage": 0.19485077164302836
+    },
+    {
+     "stage": 3,
+     "n": 2824,
+     "share": 0.12109257750525278,
+     "ead": 28472322.5,
+     "ecl": 19930625.75,
+     "coverage": 0.7
+    }
+   ],
+   "total_ecl": 32105913.026466325,
+   "total_ead": 206441837.5
+  },
+  "adverse_impact_age": [
+   {
+    "group": "30 to 44",
+    "n": 10229,
+    "approval_rate": 0.8866946915632027,
+    "impact_ratio": 0.9276190619430428
+   },
+   {
+    "group": "45 to 61",
+    "n": 7231,
+    "approval_rate": 0.9377679435762688,
+    "impact_ratio": 0.9810495409720965
+   },
+   {
+    "group": "62 and over",
+    "n": 884,
+    "approval_rate": 0.9558823529411765,
+    "impact_ratio": 1.0
+   },
+   {
+    "group": "under 30",
+    "n": 4974,
+    "approval_rate": 0.7022517088862082,
+    "impact_ratio": 0.7346633262194179
+   }
+  ]
+ }
+}

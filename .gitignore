@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+build/
+dist/
+.DS_Store
+.ipynb_checkpoints/
+# scratch output from the CLI when run with --out-dir elsewhere
+/scratch/

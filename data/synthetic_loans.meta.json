@@ -1,0 +1,7 @@
+{
+ "synthetic": true,
+ "n_base": 60000,
+ "seed": 20260101,
+ "rows_written": 60030,
+ "oot_start": "2023-01-01"
+}
