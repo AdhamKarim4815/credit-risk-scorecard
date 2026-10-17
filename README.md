@@ -12,6 +12,10 @@ characteristics by weight of evidence, fits a logistic regression by hand-writte
 a points scorecard, validates it out of time, turns it into cutoff, expected loss and IFRS 9 style
 numbers, and writes a model development report with charts.
 
+![Score distribution of goods and bads on the out-of-time sample, synthetic data](docs/score_distribution.png)
+
+![ROC curve on the out-of-time sample](docs/roc.png)
+
 Everything statistical is implemented from first principles (WoE and monotonic binning, IRLS with
 Wald statistics, AUC, KS, PSI, calibration, bootstrap intervals) and checked by 150+ tests against
 hand-computed cases and independent references (scipy, and scikit-learn when installed).
